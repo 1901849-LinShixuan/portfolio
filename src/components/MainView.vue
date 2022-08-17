@@ -42,7 +42,7 @@
           </span>
         </section>
         <section id="Projects" aria-labelledby="Projects-heading">
-          <h2 id="Projects-heading" style="margin-top: 3rem">Projects</h2>
+          <h2 id="Projects-heading">Projects</h2>
           <div class="cards">
             <div class="card-col">
               <Card :item="projects[0]" :txt="select" />
@@ -56,10 +56,10 @@
         </section>
         <section id="Erfahrungen"></section>
         <section id="Resume" aria-labelledby="Resume-heading">
-          <h2 id="Resume-heading" style="margin-top: 1rem">Résumé</h2>
+          <h2 id="Resume-heading">Résumé</h2>
           <div class="Resume">
             <img
-              src="./nathaniel_cv-1.jpg"
+              src="./nathaniel_cv-1.png"
               alt="Updated as at 14 Aug 22"
               style="
                 width: 654px;
@@ -95,61 +95,61 @@ export default {
         id: 0,
         images: [
           {
-            img: '/images/demo-nuance-small.gif',
+            img: '/images/melody.gif',
           },
           {
-            img: '/images/01.png',
+            img: '/images/melody.png',
           },
         ],
         titel: 'GUTS Hackathon - Melody App',
         tags: ['Kotlin', 'Adobe Illustrator'],
-        demo: '',
-        source: 'https://github.com/w-smesnoj/BehanceApp',
+        demo: 'https://www.youtube.com/watch?v=gVzpLzOltyI',
+        source: 'https://play.google.com/store/apps/details?id=com.team08.cs',
       },
       {
         id: 1,
         images: [
           {
-            img: '/images/demo-diprella-cropped.gif',
+            img: '/images/pinkofhealth.gif',
           },
           {
-            img: '/images/03.png',
+            img: '/images/pinkofhealth.png',
           },
         ],
         titel: 'Healthcare Mobile Application',
         tags: ['Kotlin', 'Google Firebase'],
-        demo: 'https://diprella-login.herokuapp.com/',
-        source: 'https://github.com/w-smesnoj/diprella-login',
+        demo: 'https://youtu.be/05Uf4f-kjdM',
+        source: '',
       },
       {
         id: 2,
         images: [
           {
-            img: '/images/demo-parallax.gif',
+            img: '/images/hexbin-1.png',
           },
           {
-            img: '/images/02.png',
+            img: '/images/hexbin-cartogram.png',
           },
         ],
         titel: 'Data Visualization on Covid-19 Cases',
         tags: ['LeafletJs', 'TurfJs'],
-        demo: 'https://fierce-island-96798.herokuapp.com/',
-        source: 'https://github.com/w-smesnoj/parallax-swipe',
+        demo: 'https://1901849-linshixuan.github.io/HexBinMap/',
+        source: 'https://github.com/1901849-LinShixuan/HexBinMap',
       },
       {
         id: 3,
         images: [
           {
-            img: '/images/04.png',
+            img: '/images/lucene.gif',
           },
           {
-            img: '/images/04.png',
+            img: '/images/Lucene.png',
           },
         ],
         titel: 'Lucene Search Engine',
         tags: ['Apache Lucene', 'NodeJS'],
-        demo: '',
-        source: 'https://github.com/w-smesnoj/visual-collaboration-platform',
+        demo: 'https://youtu.be/5hpFFes38Zw',
+        source: '',
       },
     ],
     selected: null,
@@ -563,7 +563,6 @@ section {
 h2 {
   font-size: 1rem;
   color: var(--txt-med);
-  margin-top: 12rem;
   cursor: default;
 }
 .main-view {
@@ -590,6 +589,7 @@ div > .main {
 .txt h1 {
   font-size: 3rem;
   margin: 0.2rem 0;
+  margin-bottom: 12rem;
   line-height: 1.3;
   max-width: 600px;
 }
