@@ -580,7 +580,7 @@ div > .main {
   box-sizing: border-box;
   line-height: 1.6;
   color: var(--txt);
-  padding: 0rem 1.5rem 80vh 1.5rem;
+  padding: 0rem 1.5rem 1.5rem;
   width: 100%;
   z-index: 100;
 }
