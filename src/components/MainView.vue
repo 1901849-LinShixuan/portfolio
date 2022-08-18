@@ -95,10 +95,10 @@ export default {
         id: 0,
         images: [
           {
-            img: '/images/melody.gif',
+            img: './images/melody.gif',
           },
           {
-            img: '/images/melody.png',
+            img: './images/melody.png',
           },
         ],
         titel: 'GUTS Hackathon - Melody App',
@@ -110,10 +110,10 @@ export default {
         id: 1,
         images: [
           {
-            img: '/images/pinkofhealth.gif',
+            img: './images/pinkofhealth.gif',
           },
           {
-            img: '/images/pinkofhealth.png',
+            img: './images/pinkofhealth.png',
           },
         ],
         titel: 'Healthcare Mobile Application',
@@ -125,10 +125,10 @@ export default {
         id: 2,
         images: [
           {
-            img: '/images/hexbin-1.png',
+            img: './images/hexbin-1.png',
           },
           {
-            img: '/images/hexbin-cartogram.png',
+            img: './images/hexbin-cartogram.png',
           },
         ],
         titel: 'Data Visualization on Covid-19 Cases',
@@ -140,10 +140,10 @@ export default {
         id: 3,
         images: [
           {
-            img: '/images/lucene.gif',
+            img: './images/lucene.gif',
           },
           {
-            img: '/images/Lucene.png',
+            img: './images/Lucene.png',
           },
         ],
         titel: 'Lucene Search Engine',
