@@ -22,7 +22,7 @@
       </div>
       <div class="main">
         <section id="intro">
-          <div class="txt">
+          <div class="txt" style="height: 70vh">
             <h1>
               Hi, I am Nathaniel Lin.
               <br />
@@ -589,7 +589,6 @@ div > .main {
 .txt h1 {
   font-size: 3rem;
   margin: 0.2rem 0;
-  margin-bottom: 12rem;
   line-height: 1.3;
   max-width: 600px;
 }
