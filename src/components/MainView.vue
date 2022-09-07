@@ -36,7 +36,7 @@
           <h2 id="intro-heading">About Me</h2>
           <span>
             Graduated with a BSc with Honours in Computing Science jointly
-            offered by Singapore Insitute of Technology & the University of
+            offered by Singapore Institute of Technology & the University of
             Glasgow. My interest lies in UI/UX design, mobile and web
             development, and data visualization.
           </span>
