@@ -9,9 +9,9 @@
             <a class="listitem" href="#Resume">Résumé</a>
             <br />
             <div class="contact">
-              <a href="mailto:yourmail@gmail.com"> linshixuana97@gmail.com</a>
-              <a href="https://github.com/1901849-LinShixuan/"
-                ><Fa fa="github" /> 1901849-LinShixuan</a
+              <a href="mailto:yourmail@gmail.com"><Fa fa="envelope" /> linshixuana97@gmail.com</a>
+              <a href="https://nathaniel-lin.webflow.io/"
+                ><Fa fa="sketch" /> UX Portfolio</a
               >
               <a href="https://www.linkedin.com/in/nathanielin/">
                 <Fa fa="linkedin" /> Nathaniel Lin Shixuan
@@ -70,7 +70,7 @@
           </div>
           <br />
           <Fa fa="file-pdf" />
-          <a href="./nathaniel_cv.pdf" download> NathanielResume_14Aug22</a>
+          <a href="https://drive.google.com/file/d/1WpR_LOblP-9cOTObYYrlbJuIo-3XVbMM/view?usp=sharing"> Nathaniel_Resume</a>
         </section>
       </div>
     </div>
@@ -133,8 +133,8 @@ export default {
         ],
         titel: 'Data Visualization on Covid-19 Cases',
         tags: ['LeafletJs', 'TurfJs'],
-        demo: 'https://1901849-linshixuan.github.io/HexBinMap/',
-        source: 'https://github.com/1901849-LinShixuan/HexBinMap',
+        demo: 'https://nathaniel-lin.github.io/HexBinMap/',
+        source: 'https://github.com/nathaniel-lin/HexBinMap',
       },
       {
         id: 3,
