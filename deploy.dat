@@ -8,6 +8,6 @@ cd dist
 git init
 git add -A
 git commit -m 'New Deployment'
-git push -f git@github.com:1901849-LinShixuan/portfolio.git master:gh-pages
+git push -f git@github.com:nathaniel-lin/portfolio.git master:gh-pages
 
 cd -
