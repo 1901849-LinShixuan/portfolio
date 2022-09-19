@@ -9,9 +9,11 @@
             <a class="listitem" href="#Resume">Résumé</a>
             <br />
             <div class="contact">
-              <a href="mailto:yourmail@gmail.com"><Fa fa="envelope" /> linshixuana97@gmail.com</a>
+              <a href="mailto:yourmail@gmail.com"
+                ><Fa fa="envelope" /> linshixuana97@gmail.com</a
+              >
               <a href="https://nathaniel-lin.webflow.io/"
-                ><Fa fa="sketch" /> UX Portfolio</a
+                ><Fa fa="icons" /> UX Portfolio</a
               >
               <a href="https://www.linkedin.com/in/nathanielin/">
                 <Fa fa="linkedin" /> Nathaniel Lin Shixuan
@@ -70,7 +72,11 @@
           </div>
           <br />
           <Fa fa="file-pdf" />
-          <a href="https://drive.google.com/file/d/1WpR_LOblP-9cOTObYYrlbJuIo-3XVbMM/view?usp=sharing"> Nathaniel_Resume</a>
+          <a
+            href="https://drive.google.com/file/d/1WpR_LOblP-9cOTObYYrlbJuIo-3XVbMM/view?usp=sharing"
+          >
+            Nathaniel_Resume</a
+          >
         </section>
       </div>
     </div>
