@@ -73,7 +73,7 @@
           <br />
           <Fa fa="file-pdf" />
           <a
-            href="https://drive.google.com/file/d/1WpR_LOblP-9cOTObYYrlbJuIo-3XVbMM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1E2_Zvy-roMiqfOsplK3XIfdXw-0ScDCY/view?usp=sharing"
           >
             Nathaniel_Resume</a
           >
