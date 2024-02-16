@@ -6,15 +6,15 @@
           <div class="xx" role="navigation" aria-labelledby="main-nav-heading">
             <a class="listitem" href="#Intro">Intro</a>
             <a class="listitem" href="#Projects">Projects</a>
-            <a class="listitem" href="#Resume">Résumé</a>
+            <a class="listitem" href="#Skills">Skills</a>
             <br />
             <div class="contact">
-              <a href="mailto:yourmail@gmail.com"
-                ><Fa fa="envelope" /> linshixuana97@gmail.com</a
-              >
-              <a href="https://nathaniel-lin.webflow.io/"
-                ><Fa fa="icons" /> UX Portfolio</a
-              >
+              <a href="mailto:yourmail@gmail.com">
+                <Fa fa="envelope" /> linshixuana97@gmail.com
+              </a>
+              <a href="https://nathaniel-lin.webflow.io/">
+                <Fa fa="icons" /> UX Portfolio
+              </a>
               <a href="https://www.linkedin.com/in/nathanielin/">
                 <Fa fa="linkedin" /> Nathaniel Lin Shixuan
               </a>
@@ -31,7 +31,9 @@
               An aspiring UI/UX FrontEnd Developer
             </h1>
             <br />
-            <a href="#Intro">About Me <Fa fa="arrow-down" /></a>
+            <a href="#Intro">About Me
+              <Fa fa="arrow-down" />
+            </a>
           </div>
         </section>
         <section id="Intro" aria-labelledby="intro-heading">
@@ -57,26 +59,18 @@
           </div>
         </section>
         <section id="Erfahrungen"></section>
-        <section id="Resume" aria-labelledby="Resume-heading">
-          <h2 id="Resume-heading">Résumé</h2>
-          <div class="Resume">
-            <img
-              src="./nathaniel_cv-1.png"
-              alt="Updated as at 14 Aug 22"
-              style="
-                width: 654px;
-                border: 7px solid blanchedalmond;
-                border-radius: 5px;
-              "
-            />
+        <section id="Skills" aria-labelledby="Skills-heading">
+          <h2 id="Skills-heading">Skills</h2>
+          <div class="Skills">
+            <img src="../../public/images/html-5.png" title="HTML5">
+            <img src="../../public/images/js.png" title="JavaScript">
+            <img src="../../public/images/css-3.png" title="CSS3">
+            <img src="../../public/images/react.png" title="React">
+            <img src="../../public/images/cshtml.png" title="CSHTML">
+            <img src="../../public/images/python.png" title="Python">
+            <img src="../../public/images/figma.png" title="Figma">
           </div>
           <br />
-          <Fa fa="file-pdf" />
-          <a
-            href="https://drive.google.com/file/d/1E2_Zvy-roMiqfOsplK3XIfdXw-0ScDCY/view?usp=sharing"
-          >
-            Nathaniel_Resume</a
-          >
         </section>
       </div>
     </div>
@@ -125,7 +119,6 @@ export default {
         titel: 'Healthcare Mobile Application',
         tags: ['Kotlin', 'Google Firebase'],
         demo: 'https://youtu.be/05Uf4f-kjdM',
-        source: '',
       },
       {
         id: 2,
@@ -155,7 +148,6 @@ export default {
         titel: 'Lucene Search Engine',
         tags: ['Apache Lucene', 'NodeJS'],
         demo: 'https://youtu.be/5hpFFes38Zw',
-        source: '',
       },
     ],
     selected: null,
@@ -228,14 +220,17 @@ export default {
     }
   }
 }
+
 @media screen and (max-width: 680px) {
   .cards {
     display: block !important;
   }
+
   .card {
     width: 100% !important;
     height: 33rem !important;
   }
+
   #intro {
     .txt {
       a {
@@ -243,6 +238,7 @@ export default {
       }
     }
   }
+
   .hidden {
     #intro {
       .txt {
@@ -252,6 +248,7 @@ export default {
       }
     }
   }
+
   .cont {
     grid-template-areas:
       'datum'
@@ -261,30 +258,38 @@ export default {
       'txt' !important;
     grid-template-columns: 100% !important;
   }
+
   .txt h1 {
     font-size: 7vw !important;
   }
 }
+
 #Kontakt,
-#Resume {
+#Skills {
   a {
     color: black;
+
     i {
       font-size: 0.9rem;
     }
   }
+
   a:hover {
     color: hsl(0deg 0% 63%);
   }
 }
+
 .bildungsweg,
-.Resume {
+.Skills {
   h3 {
     font-size: 0.9rem;
     color: white;
   }
+
   cursor: default;
+  display: inline-flex;
 }
+
 .cont {
   display: grid;
   grid-template-areas:
@@ -294,6 +299,7 @@ export default {
   grid-template-columns: 11rem 370px;
   gap: 0rem 1rem;
   margin-bottom: 1.3rem;
+
   span:nth-child(1) {
     grid-area: datum;
     font-weight: 600;
@@ -301,20 +307,24 @@ export default {
     color: hsl(0deg 0% 63%);
     letter-spacing: -0.02rem;
   }
+
   span:nth-child(2) {
     grid-area: extra;
     font-size: 0.87rem;
     color: hsl(0deg 0% 63%);
     letter-spacing: -0.02rem;
   }
+
   span:nth-child(3) {
     grid-area: titel;
   }
+
   span:nth-child(4) {
     grid-area: ort;
     font-size: 0.9rem;
     color: hsl(0deg 0% 63%);
   }
+
   span:nth-child(5) {
     grid-area: txt;
     font-size: 0.9rem;
@@ -329,43 +339,52 @@ export default {
   gap: 1.05rem;
   width: 100%;
   transition: opacity 0.3s;
+
   a {
     text-decoration: none;
     color: var(--txt-med);
     padding: 0rem 1.5rem;
   }
 }
+
 .contact {
   a:hover {
     color: black;
   }
 }
+
 #Intro {
   a {
     color: var(--accent-1);
     text-decoration: none;
+
     i {
       margin-left: 0.4rem;
     }
   }
 }
+
 section {
   padding: 2.5rem 0rem;
+
   &:empty {
     display: none;
   }
+
   span {
     display: block;
     max-width: 550px;
     text-align: justify;
   }
 }
+
 .mainitem-active {
   border-radius: 6px;
   background: hsl(220 100% 71% / 0.11);
   color: hsl(220 100% 53% / 1) !important;
   margin-bottom: 0.3rem;
 }
+
 .title {
   font-size: 12px !important;
   font-weight: 700 !important;
@@ -377,12 +396,14 @@ section {
   width: 100%;
   text-align: center;
 }
+
 .xx {
   display: flex;
   flex-flow: column;
   align-items: self-end;
   margin-top: 44px;
   gap: 1.05rem;
+
   a {
     transition: min-width 0.3s, border 0.3s, padding 0.3s, box-shadow 0.3s,
       background 0.15s;
@@ -391,30 +412,39 @@ section {
     max-width: -webkit-fill-available;
   }
 }
+
 .listitem:nth-child(1).first {
   background: lightgrey;
 }
+
 .listitem:nth-child(2).first {
   background: var(--accent-1);
 }
+
 .listitem:nth-child(3).first {
   background: var(--accent-2);
 }
+
 .listitem:nth-child(4).first {
   background: var(--accent-3);
 }
+
 .listitem:nth-child(5).first {
   background: var(--accent-4);
 }
+
 .listitem:nth-child(6).first {
   background: var(--accent-5);
 }
+
 .listitem:nth-child(7).first {
   background: var(--accent-6);
 }
+
 .listitem:hover {
   background-color: hsla(0, 0%, 80%, 0.15);
 }
+
 .listitem {
   text-decoration: none;
   display: block;
@@ -428,13 +458,16 @@ section {
   font-weight: 500;
   border-radius: 0.4rem;
 }
+
 .mainitem {
   padding: 0.5rem 0.5rem;
 }
+
 .current {
   border-left: 6px solid #ffffff1c;
   // box-shadow: 0px 0px 0px 0px black;
 }
+
 .first {
   color: black;
   color: black !important;
@@ -443,13 +476,16 @@ section {
   transform-origin: left;
   animation: pop 0.25s ease-out;
 }
+
 @keyframes pop {
   35% {
     transform: scale(1.05);
   }
+
   75% {
     transform: scale(0.96);
   }
+
   100% {
     transform: scale(1);
   }
@@ -460,10 +496,12 @@ section {
 .card-col:nth-child(2) {
   margin-top: 5rem;
 }
+
 .cards {
   display: flex;
   gap: 1.7rem;
 }
+
 .card-col {
   display: flex;
   flex-flow: column;
@@ -474,20 +512,24 @@ section {
 .sideoptions {
   transition: width 0.3s;
 }
+
 @media screen and (max-width: 1300px) {
   .main-view {
     grid-template: 'siderbar main main';
   }
+
   .sideoptions {
     display: none;
   }
 }
+
 @media screen and (max-width: 1023px) {
   .main-view {
     grid-template: 'main main main' !important;
     grid-template-columns: 1fr !important;
     width: auto !important;
   }
+
   .sidebar {
     display: none;
   }
@@ -497,6 +539,7 @@ section {
   scrollbar-color: #bebebe transparent;
   scrollbar-width: thin;
 }
+
 .holder:hover {
   scrollbar-color: #bebebe #f2f2f2;
 
@@ -531,10 +574,12 @@ section {
 .sider:hover .holder::-webkit-scrollbar-thumb:hover {
   background: #818b99;
 }
+
 .sider {
   height: 100%;
   width: 310px;
 }
+
 .holder {
   padding: 1rem;
   position: -webkit-sticky;
@@ -543,6 +588,7 @@ section {
   height: calc(100vh - 90px);
   overflow-y: auto;
 }
+
 .sidebar {
   justify-self: right;
 }
@@ -551,17 +597,19 @@ section {
   font-size: 0.8rem;
 }
 
-.filters > .text {
+.filters>.text {
   padding: 0.5em 0em;
   display: block;
 }
-.filters > .text > input {
+
+.filters>.text>input {
   width: 125px;
   border: 0;
   background: 0;
   margin: 0rem 0.3rem;
   border-bottom: 1px solid gray;
 }
+
 .filters {
   margin: 2rem 0rem;
 }
@@ -571,6 +619,7 @@ h2 {
   color: var(--txt-med);
   cursor: default;
 }
+
 .main-view {
   display: grid;
   grid-template: 'siderbar main';
@@ -580,7 +629,8 @@ h2 {
   margin-right: auto;
   z-index: 100;
 }
-div > .main {
+
+div>.main {
   max-width: 1000px;
   margin: auto;
   box-sizing: border-box;
@@ -598,8 +648,10 @@ div > .main {
   line-height: 1.3;
   max-width: 600px;
 }
+
 .main-view {
   transition: background 0.3s;
+
   section {
     transition: opacity 0.3s;
   }
@@ -607,11 +659,13 @@ div > .main {
 
 .main-view,
 .main-view {
+
   .main .holder,
   .sider {
     transition: background 0.3s;
   }
 }
+
 .hidden {
   .xx {
     a {
@@ -623,46 +677,57 @@ div > .main {
     .title {
       opacity: 0;
     }
+
     .listitem {
       border: 0;
       background: lightgrey;
       color: black;
     }
+
     .listitem:nth-child(2) {
       background: var(--accent-1);
     }
+
     .listitem:nth-child(3) {
       background: var(--accent-2);
     }
+
     .listitem:nth-child(4) {
       background: var(--accent-3);
     }
+
     .listitem:nth-child(5) {
       background: var(--accent-4);
     }
+
     .listitem:nth-child(6) {
       background: var(--accent-5);
     }
+
     .listitem:nth-child(7) {
       background: var(--accent-6);
     }
+
     .listitem:hover {
       background: #fbfbfb;
     }
   }
+
   .contact,
   section {
     opacity: 0;
   }
+
   .main,
   .holder,
   .sider {
     background: transparent !important;
   }
+
   background: transparent !important;
   box-shadow: unset !important;
 }
+
 #intro {
   opacity: 100;
-}
-</style>
+}</style>
